@@ -1,0 +1,48 @@
+.tabla {
+    width: 800px;
+    height: 800px;
+    background-color: bisque;
+    margin: 0 auto;
+    border: rgb(45, 104, 123) 10px solid;
+}
+
+.casilla {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(45deg, lightblue, rgb(84, 155, 179));
+    float: left;
+}
+
+.fila:nth-child(2n+1) .casilla:nth-child(2n) {
+    background-image: linear-gradient(45deg, aliceblue, lightblue);
+}
+.fila:nth-child(2n) .casilla:nth-child(2n+1) {
+    background-image: linear-gradient(45deg, aliceblue, lightblue);
+}
+
+b {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 30% 30%, whitesmoke, rgb(79, 146, 170));
+    box-shadow: 1px 1px 4px whitesmoke;
+    display: block;
+    margin: 10px;
+}
+
+.fila:nth-child(n+3) b {
+    display: none;
+}
+.fila:nth-child(n+7) b{
+    display: block;
+    background-image: radial-gradient(circle at 30% 30%, rgb(138, 192, 211), aliceblue);
+    box-shadow: 1px 1px 4px whitesmoke;
+}
+
+.degradado{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: radial-gradient(circle at 30% 30%, lightblue, aliceblue);
+    box-shadow: 1px 1px 4px whitesmoke;
+}

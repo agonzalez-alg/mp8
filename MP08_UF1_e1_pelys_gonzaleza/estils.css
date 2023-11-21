@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-color: #222;
+}
+.header{
+    background-color: #222;
+    opacity: 50%;
+    height: 50px;
+    position: fixed;
+}
+.logo{
+    position: absolute;
+    margin: 5px 20px 5px 20px;
+}
+.enlaces h3, .textos h3{
+    position: relative;
+    font-weight: lighter;
+    float: left;
+    margin-left: 5px;
+}
+.enlaces h3{
+    left: 120px;
+    top: 15px;
+    color: #ccc;
+}
+.textos h3{
+    left: 500px;
+    top: 15px;
+    color: #fff;
+}
+
+.titular h1{
+    padding: 20px;
+    clear: both;
+    color: #fff;
+    font-size: 22px;
+}
+h4{
+    color: #ccc;
+    font-size: 14px;
+}
+p{
+    color: #ccc;
+    font-size: 11px;
+}
+
+.peli{
+    height: 340px;
+    width: 175px;
+    float: left;
+    margin-left: 20px;
+}
+.peli:hover{
+    opacity: 50%;
+}
+.foto{
+    height: 260px;
+    width: 175px;
+    border-radius: 5px 5px 0 0;
+}
+.koya{
+    background-image: url(img/1982Koyaanisqatsi.jpg);
+}
+.sabes{
+    background-image: url(img/2004YTuQueSabes.jpg);
+}
+.earth{
+    background-image: url(img/2005Earthlings.jpg);
+}
+.helvet{
+    background-image: url(img/2007Helvetica.jpg);
+}
+.sicko{
+    background-image: url(img/2007Sicko.jpg);
+}
+.zeit{
+    background-image: url(img/2008Zeitgeist2.jpg);
+}
+.art{
+    background-image: url(img/2009ArtAndCopy.jpg);
+}
+.home{
+    background-image: url(img/2009Home.jpg);
+}
+.rip{
+    background-image: url(img/2009RipARemixManifesto.jpg);
+}
+.comprar{
+    background-image: url(img/2010ComprarTirarComprar.jpg);
+}
+.inside{
+    background-image: url(img/2010InsideJob.jpg);
+}
+.doctrina{
+    background-image: url(img/2011LaDoctrinaDeShock.jpg);
+}
+.sugar{
+    background-image: url(img/2012SearchingForSugarMan.jpg);
+}
+.kill{
+    background-image: url(img/2012TheActOfKilling.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.Xpeli{
+    background-image: url(img/XXXXpeli.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}
+.espititu{
+    background-image: url(img/2013ElEspirituDel45.jpg);
+}

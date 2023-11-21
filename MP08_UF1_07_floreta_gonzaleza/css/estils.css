@@ -1,0 +1,67 @@
+.petalos {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border-radius: 0 100%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform-origin: right bottom;
+}
+
+.corazon{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: darkred;
+    border-radius: 50%;
+    top: -425px;
+    left: 175px;
+}
+
+#primero {
+   top: 100px;
+   left: 100px;
+}
+#segundo {
+    top: 0;
+    left: 100px;
+    transform: rotate(60deg);
+}
+#tercero {
+    top: -100px;
+    transform: rotate(120deg);
+}
+#cuarto {
+    top: -200px;
+    transform: rotate(180deg);
+}
+#quinto {
+    top: -300px;
+    transform: rotate(240deg);
+}
+#sexto {
+    top: -400px;
+    transform: rotate(300deg);
+}
+
+.flor {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.flor:hover{
+    animation-name: rotar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

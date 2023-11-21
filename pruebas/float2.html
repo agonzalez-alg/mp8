@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float 2</title>
+    <style>
+        *, *:after, *:before{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div {
+            margin: 0;
+            padding: 0.5%;
+        }
+        h1 {
+            margin: 20px 0 0 450px;
+        }
+        h2 {
+            margin-left: 10px;
+        }
+        h1, h2, p {
+            color: rgb(51, 113, 113);
+        }
+        .cabeza{
+            background-color: rgb(104, 193, 193);
+            height: 80px;
+            padding: 2%;
+        }
+        .primernivel{
+            background: lightblue;
+            color: grey;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+        .primernivel:hover{
+            background: aliceblue;
+        }
+        .primernivel:hover>.secundaria{
+            display: block;
+        }
+        .secundaria{
+            background: lightcyan;
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+        }
+        .segundonivel{
+            background: lightcoral;
+            display: block;
+            font-size: 0.85rem;
+            height: 2rem;
+            top: 2rem;
+            border-bottom: solid white;
+        }
+        .segundonivel:hover{
+            background: lightpink;
+        }
+        .menu {
+            background-color: rgb(174, 238, 238);
+            height: 900px;
+            width: 24%;
+            float: left;
+        }
+        li {
+
+        }
+        .contenido {
+            background-color: rgb(189, 247, 247);
+            height: 900px;
+            width: 49%;
+            float: left;
+            overflow: scroll;
+        }
+        .lateral {
+            background-color: rgb(174, 238, 238);
+            height: 900px;
+            width: 24%;
+            float: right;
+        }
+        .pie {
+            background-color: rgb(104, 193, 193);
+            height: 60px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabeza">
+        <h1>Andrea Book</h1>
+        <ul class="navegacion">
+            <li class="primernivel">
+                Opción 1
+                <ul class="secundaria">
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                </ul>
+            </li>
+            <li class="primernivel">
+                Opción 2
+                <ul class="secundaria">
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                </ul>
+            </li>
+            <li class="primernivel">
+                Opción 3
+                <ul class="secundaria">
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                </ul>
+            </li>
+            <li class="primernivel">
+                Opción 4
+                <ul class="secundaria">
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                </ul>
+            </li>
+            <li class="primernivel">
+                Opción 5
+                <ul class="secundaria">
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                    <li class="segundonivel">Subopción</li>
+                </ul>
+            </li>
+        </ul>
+    
+    </div>
+    <div class="menu">
+        <h2>Home</h2>
+        <ul>
+            <li><a href="#e1">Entrada 1</a></li>
+            <li><a href="#e2">Entrada 2</a></li>
+            <li><a href="#e3">Entrada 3</a></li>
+            <li><a href="#e4">Entrada 4</a></li>
+            <li><a href="#e5">Entrada 5</a></li>
+            <li><a href="#e6">Entrada 6</a></li>
+            <li><a href="#e7">Entrada 7</a></li>
+            <li><a href="#e8">Entrada 8</a></li>
+        </ul>
+    </div>
+    <div class="contenido">
+        <h2>Timeline</h2>
+        <h3 id="e1">Part 1</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas minus pariatur corrupti culpa consequuntur, eius inventore rerum aperiam, fugit cumque adipisci dolore aspernatur veritatis quod quae illo libero debitis in.</p>
+        <h3 id="e2">Part 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur maxime perferendis delectus eius voluptatum, sed dolore, aliquid nisi molestias a laudantium id porro temporibus ab perspiciatis accusantium error facilis dolorum!</p>
+        <h3 id="e3">Part 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consectetur porro odit animi dolorum officiis atque nemo unde reprehenderit facere possimus dolores, omnis, earum accusamus culpa tempora sed molestias velit.</p>
+        <h3 id="e4">Part 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo veritatis exercitationem reprehenderit ipsam, doloribus ut. Fugit est quia illum voluptatum, officiis ut. Deleniti alias fugit architecto, quam tenetur mollitia!</p>
+        <h3 id="e5">Part 5</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam sapiente nam dolorum, harum aliquid nihil eveniet natus possimus doloribus sint quidem, minima totam asperiores? Nostrum voluptatibus minus quae velit.</p>
+        <h3 id="e6">Part 6</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam sapiente nam dolorum, harum aliquid nihil eveniet natus possimus doloribus sint quidem, minima totam asperiores? Nostrum voluptatibus minus quae velit.</p>
+        <h3 id="e7">Part 7</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam sapiente nam dolorum, harum aliquid nihil eveniet natus possimus doloribus sint quidem, minima totam asperiores? Nostrum voluptatibus minus quae velit.</p>
+        <h3  id="e8">Part 8</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam sapiente nam dolorum, harum aliquid nihil eveniet natus possimus doloribus sint quidem, minima totam asperiores? Nostrum voluptatibus minus quae velit.</p>
+    </div>
+    <div class="lateral">
+        <h2>Contacts</h2>
+        <ul>
+            <li>sampletext1</li>
+            <li>sampletext2</li>
+            <li>sampletext3</li>
+            <li>sampletext4</li>
+        </ul>
+    </div>
+    <div class="pie"><p>Pie</p></div>
+</body>
+</html>
