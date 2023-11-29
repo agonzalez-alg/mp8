@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: wellfleet;
+}
+body{
+    background-image: url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 7rem;
+    background: lightblue;
+    opacity: 70%;
+}
+#ejercicio{
+    width: 11rem;
+    height: 16rem;
+    float: left;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    opacity: 85%;
+    margin: 5rem;
+    position: relative;
+    overflow: hidden;
+}
+#ejercicio:hover .foto{
+    transform: translateY(-25%);
+    transition: transform .8s;
+}
+.foto{
+    background-size: cover;
+    background-position: center;
+    width: 11rem;
+    height: 16rem;
+    float: left;
+    position: relative;
+    transform: translateY(0%);
+    transition: all .8s ease;
+}
+.foto#inicio{
+    background-image: url(img/inicio.gif);
+}
+.foto#horario{
+    background-image: url(img/horario.gif
+    );
+}
+.foto#feedly{
+    background-image: url(img/feedly.gif
+    );
+}
+.foto#ifpagram{
+    background-image: url(img/ifpagram.gif
+    );
+}
+.foto#escacs{
+    background-image: url(img/escacs.gif
+    );
+}
+.foto#absolute{
+    background-image: url(img/absolute.gif
+    );
+}
+.foto#florecita{
+    background-image: url(img/flor.gif
+    );
+}
+.foto#micara{
+    background-image: url(img/micara.gif
+    );
+}
+.foto#photoshop{
+    background-image: url(img/photoshop.gif
+    );
+}
+.foto#pelys{
+    background-image: url(img/pelys.gif
+    );
+}
+
+.foto_hover{
+    width: calc(16rem - 5rem);
+    height: 4rem;
+    font-family: sans-serif;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0rem;
+    opacity: 1;
+    padding: 1.25rem;
+    background-color: gainsboro;
+    transform: translateY(100%);
+    transition: all 1s ease;
+}
+#ejercicio:hover .foto_hover{
+    transform: translateY(0%);
+    transition: transform .8s;
+}
+.foto_hover .texto{
+    background-color: thistle;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    left: 2.9rem;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all .6s ease;
+}
+h1, h2, h3{
+    float: left;
+    color: midnightblue;
+    opacity: 100%s;
+    margin: 2rem 2rem 0 5rem;
+    
+}
+h4, h5{
+    color: cadetblue;
+}
+h5{
+    font-size: 0.6rem;
+}
+a{
+    background-color: dodgerblue;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+/*web de ejemplo(https://codepen.io/vlai/pen/dMeYdE?editors=1100)*/
