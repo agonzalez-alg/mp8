@@ -4,11 +4,22 @@
     font-family: wellfleet;
 }
 body{
+    cursor: url(img/cursor.cur), auto;
+}
+body:after{
+    content: "";
+    display: block; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background-image: url(img/fondo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 2250px;
+    background-attachment: fixed;
+    z-index: -2;
 }
-
 .header{
     height: 7rem;
     background: lightblue;
