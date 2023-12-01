@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-color: #222;
+}
+.header{
+    height: 3.125rem;
+    background-color: #222;
+    opacity: 50%;
+    position: fixed;
+}
+.logo{
+    margin: 0.313rem 1.25rem 0.313rem 1.25rem;
+    float: left;
+}
+ul, li{
+    float: left;
+    list-style: none;
+    margin: 0.313rem;
+}
+.enlaces{
+    color: #CCC;
+}
+.enlaces:hover{
+    color: #fff;
+    text-decoration: underline 0.125rem;
+}
+.normal{
+    float: right;
+    color: #fff;
+}
+.primero h4{
+    margin-top: 3.125rem;
+}
+h4{
+    color: #fff;
+    font-size: 1.375rem;
+    clear: both;
+}
+.peli{
+    height: 18.75rem;
+    width: 10.938rem;
+    margin: 1.25rem;
+    float: left;
+}
+.vista{
+    filter: grayscale(100%);
+}
+.peli:hover{
+    opacity: 50%;
+}
+img{
+    border-radius: 0.313rem;
+}
+h1{
+    color: #CCC;
+    font-size: 0.875rem;
+}
+h2, h3{
+    color: #CCC;
+    margin-top: 0.625rem;
+    font-size: 0.688rem;
+}
+h2{
+    float: left;
+}
+h3{
+    float: right;
+}
