@@ -140,3 +140,19 @@ a{
 }
 
 /*web de ejemplo(https://codepen.io/vlai/pen/dMeYdE?editors=1100)*/
+
+/*disenio mobil vertical*/
+    @media screen and (max-width: 480px) {
+        body{
+            background-image: url(img/fondo2.gif);
+            background-repeat: no-repeat;
+            background-size: 2250px;
+            background-attachment: fixed;        
+        }
+    }
+/*disenio mobil apaisado*/
+    @media screen and (min-width: 480px) and (max-width: 1024px) {
+        body{
+            background: lightskyblue;
+        }
+    }
