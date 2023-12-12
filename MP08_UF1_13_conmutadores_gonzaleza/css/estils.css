@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    position: relative;
+}
+body{
+    background-color:#99e0ff;
+    background-image:
+    radial-gradient(at 73% 96%, hsla(358,65%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 50% 17%, hsla(172,64%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 86% 43%, hsla(22,84%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 92% 28%, hsla(235,63%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 74% 11%, hsla(19,62%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 63% 19%, hsla(65,92%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 22% 3%, hsla(4,67%,76%,1) 0px, transparent 50%);
+}
+input{
+    appearance: none;
+}
+
+input::before{
+    content:"---";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    font-size: 5rem;
+    line-height: 0.7rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input:checked::before{
+    content:"---";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    font-size: 5rem;
+    line-height: 0.7rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+label{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+
+input:checked ~ label{
+    left: 0;
+}

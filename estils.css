@@ -6,6 +6,10 @@
 body{
     cursor: url(img/cursor.cur), auto;
 }
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+}
 body:after{
     content: "";
     display: block; 
@@ -14,17 +18,38 @@ body:after{
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url(img/fondo.png);
+    background-image: url(img/fondos/fondo.png);
     background-repeat: no-repeat;
     background-size: 2250px;
     background-attachment: fixed;
     z-index: -2;
 }
-.header{
-    height: 7rem;
-    background: lightblue;
-    opacity: 70%;
+.presentacion{
+    width: 100%;
+    height: 80rem;
+    background-image: url(img/fondos/iniciopag.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.header{
+    position: absolute;
+}
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 3rem;
+}
+h1, h2, h3{
+    color: gray;
+    opacity: 100%s;
+    margin: 2rem 2rem 0 5rem;
+    
+}
+
 #ejercicio{
     width: 11rem;
     height: 16rem;
@@ -117,13 +142,6 @@ body:after{
     text-decoration: none;
     color: #fff;
     transition: all .6s ease;
-}
-h1, h2, h3{
-    float: left;
-    color: midnightblue;
-    opacity: 100%s;
-    margin: 2rem 2rem 0 5rem;
-    
 }
 h4, h5{
     color: cadetblue;
