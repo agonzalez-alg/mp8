@@ -26,7 +26,7 @@ body:after{
 }
 .presentacion{
     width: 100%;
-    height: 80rem;
+    height: 30rem;
     background-image: url(img/fondos/iniciopag.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,8 +51,8 @@ h1, h2, h3{
 }
 
 #ejercicio{
-    width: 11rem;
-    height: 16rem;
+    width: 25rem;
+    height: 30rem;
     float: left;
     border-radius: 1rem;
     background-color: aliceblue;
@@ -68,8 +68,8 @@ h1, h2, h3{
 .foto{
     background-size: cover;
     background-position: center;
-    width: 11rem;
-    height: 16rem;
+    width: 25rem;
+    height: 30rem;
     float: left;
     position: relative;
     transform: translateY(0%);
@@ -116,8 +116,8 @@ h1, h2, h3{
 }
 
 .foto_hover{
-    width: calc(16rem - 5rem);
-    height: 4rem;
+    width: calc(30rem - 5rem);
+    height: 10rem;
     font-family: sans-serif;
     vertical-align: middle;
     position: absolute;
