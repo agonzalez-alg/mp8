@@ -127,9 +127,10 @@ h1, h2, h3{
     transition: transform .8s;
 }
 .foto_hover .texto{
-    background-color: thistle;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    left: 2.9rem;
+    background-color: cadetblue;
+    padding: 1rem 1rem 1rem 1rem;
+    left: 19rem;
+    top: 0rem;
     position: absolute;
     text-transform: uppercase;
     font-size: 0.75rem;
@@ -138,13 +139,15 @@ h1, h2, h3{
     transition: all .6s ease;
 }
 h4, h5{
-    color: cadetblue;
+    color: white;
 }
 h4{
     font-size: 4rem;
+    margin-top: 1rem;
 }
 h5{
     font-size: 1.5rem;
+    color: whitesmoke;
 }
 a{
     background-color: dodgerblue;
@@ -158,11 +161,20 @@ a{
 
 /*disenio mobil vertical*/
     @media screen and (max-width: 480px) {
-        body{
-            background-image: url(img/fondo2.gif);
-            background-repeat: no-repeat;
-            background-size: 2250px;
-            background-attachment: fixed;        
+        h1{
+            font-size: 5rem;
+        }
+        h2{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+        h1, h2, h3{
+            color: gray;
+            opacity: 100%s;
+            margin: 2rem 2rem 0 5rem;
+            
         }
     }
 /*disenio mobil apaisado*/
