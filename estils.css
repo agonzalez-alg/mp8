@@ -4,29 +4,14 @@
     font-family: wellfleet;
 }
 body{
-    cursor: url(img/cursor.cur), auto;
-}
-body, html{
-    width: 100%;
-    overflow-x: hidden;
-}
-body:after{
-    content: "";
-    display: block; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-attachment: fixed;
-    z-index: -2;
-}
-.presentacion{
-    width: 100%;
-    height: 30rem;
+    /*cursor: url(img/cursor.cur), auto;*/
 }
 .header{
-    position: absolute;
+    height: 40rem;
+    width: 100%;
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0;
+    background: lightgrey; 
 }
 h1{
     font-size: 8rem;
@@ -177,7 +162,7 @@ a{
             margin: 0 auto;
             float: none;
         }
-        .divisoor{
+        .divisor{
             height: 5rem;
         }
     }
