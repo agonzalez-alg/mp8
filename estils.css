@@ -38,7 +38,7 @@ h3{
     font-size: 3rem;
 }
 h1, h2, h3{
-    color: gray;
+    color: rgb(66, 91, 114);
     opacity: 100%s;
     margin: 2rem 2rem 0 5rem;
     
@@ -139,7 +139,7 @@ h1, h2, h3{
     transition: all .6s ease;
 }
 h4, h5{
-    color: white;
+    color: rgb(66, 91, 114);
 }
 h4{
     font-size: 4rem;
@@ -147,7 +147,7 @@ h4{
 }
 h5{
     font-size: 1.5rem;
-    color: whitesmoke;
+    color: rgb(77, 117, 155);
 }
 a{
     background-color: dodgerblue;
@@ -159,8 +159,11 @@ a{
 
 /*web de ejemplo(https://codepen.io/vlai/pen/dMeYdE?editors=1100)*/
 
-/*disenio mobil vertical*/
-    @media screen and (max-width: 480px) {
+/*diseno mobil*/
+    @media screen and (min-width: 480px) and (max-width: 1024px) {
+        body{
+            background: aliceblue;
+        }
         h1{
             font-size: 5rem;
         }
@@ -170,16 +173,11 @@ a{
         h3{
             font-size: 1.5rem;
         }
-        h1, h2, h3{
-            color: gray;
-            opacity: 100%s;
-            margin: 2rem 2rem 0 5rem;
-            
+        #ejercicio{
+            margin: 0 auto;
+            float: none;
         }
-    }
-/*disenio mobil apaisado*/
-    @media screen and (min-width: 480px) and (max-width: 1024px) {
-        body{
-            background: lightskyblue;
+        .divisoor{
+            height: 5rem;
         }
     }
