@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> /*trabajo en css*/
+        .bola{
+            width: 5rem;
+            height: 5rem;
+            background: aliceblue;
+            margin: 1rem;
+            border-radius: 50%;
+        }
+    </style>
+    <script> //tabajo en javascript
+
+        //primitivos
+        const pi = 3.14;
+        var x = 6;
+        let nom = "Andrea";
+        undefined
+        null
+        let estadodeluz = true;
+
+        //operadores 
+        //let concatenacion = (x+nom);
+            //aritmeticos ( + - * / % ++ ** )
+            //comparacion ( == != === > >= < <= )
+            //logics ( && => AND || => OR ! => NOT )
+            //prompt("Escribe tu nombre")
+            console.log(x);
+            document.write(nom);
+            document.body.style.background="cadetblue";
+            //DOM (document window element)
+            //instancias:
+            //getElementsByTagName ---> 
+            //getElementsById ---> selecciona el elemento de una id determinada
+            //getElementsByClassName ---> selecciona todos los elementos de una clase determinada
+            //getElementsByName ---> selecciona por el nombre
+
+            cambiacolor() {
+                document.getElementsByClassName(bola).style.background="yellow";
+            }
+
+        </script>
+</head>
+<body>
+    <div class="bola"></div>
+    <div class="bola" id="destacada"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+
+    <button onmousedown="cambiacolor()">Cambia</button>
+</body>
+</html>
