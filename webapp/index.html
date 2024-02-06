@@ -22,6 +22,44 @@
                 font-size: 2rem;
                 font-family: ;
             }
+
+            h1{
+                color: lightsteelblue;
+                float: left;
+            }
+
+            ul {
+               overflow: hidden;
+               float: right;
+            }
+
+            li {
+                width: 3rem;
+                height: 3rem;
+                margin: 1rem;
+                border-radius: 50%;
+                line-height: 3rem;
+                float: left;
+                display: inline-block;
+                text-align: center;
+                background: aliceblue;
+            }
+
+            #peque{
+                font-size: 1rem;
+            }
+
+            #mediano{
+                font-size: 1.5rem;
+            }
+
+            #grande{
+                font-size: 2rem;
+            }
+
+            #txt{
+                clear: both;
+            }
         /*diseno mobil vertical*/
             @media screen and (max-width: 480px) {
                 body{
@@ -33,11 +71,16 @@
                 body{
                     background: lightskyblue;
                 }
+                h1{
+                color: cadetblue;
+                float: left;
+            }
+
             }
         /*diseno mobil escritorio*/
             @media screen and (min-width: 1025px){
                 body{
-                    background: lightblue;
+                    background: cadetblue;
                 }
             }
 
@@ -45,7 +88,12 @@
 </head>
 <body>
     <h1>APP</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam tenetur quasi, sint temporibus laboriosam tempore perspiciatis incidunt earum qui reprehenderit illo dolorem et! Quo odio voluptatum recusandae dolorum nostrum?
+    <ul>
+        <li id="peque">-</li>
+        <li id="mediano">=</li>
+        <li id="grande">+</li>
+    </ul>
+    <p id="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam tenetur quasi, sint temporibus laboriosam tempore perspiciatis incidunt earum qui reprehenderit illo dolorem et! Quo odio voluptatum recusandae dolorum nostrum?
     Repellat, eveniet dolorem pariatur, saepe, autem ea sunt consequatur tenetur magni veniam fugit voluptatem voluptate corporis voluptatum odio dignissimos placeat. Dolorum pariatur amet expedita beatae numquam cumque sit ex sunt.
     Sequi, mollitia culpa, recusandae perspiciatis quidem cupiditate sapiente ut ratione ab eligendi itaque amet earum fuga voluptate deserunt! Ab aliquam quae minima assumenda consectetur quod est doloremque aperiam sint tenetur?
     Eius qui dolore adipisci quod, officia quidem doloribus nostrum placeat aliquid ut porro molestias nesciunt fugit fugiat rerum facere, quasi, eos velit odio deserunt quis cum error aut? Voluptatum, incidunt?
@@ -57,3 +105,4 @@
     Nobis, maiores suscipit perspiciatis aliquam quo vel, unde explicabo inventore, reiciendis ea repudiandae fugit. Provident necessitatibus totam obcaecati animi omnis incidunt temporibus libero facilis consequuntur, velit dolorum illum, excepturi quia?</p>
 </body>
 </html>
+<script src="script.js"></script>
