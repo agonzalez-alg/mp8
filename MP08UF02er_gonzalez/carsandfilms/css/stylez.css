@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../img/fons.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabeza{
+    height: 589px;
+    width: 100%;
+    background: cadetblue;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 4rem;
+}
+.coches{
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    background: red;
+}
+#contenedor{
+    height: 840px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.cuadro{
+    height: 240px;
+    width: 280px;
+    float: left;
+    margin: 20px;
+    background: white;
+    opacity: 50%;
+}
+.cuadro:hover{
+    opacity: 100%;
+    filter: saturate(30%);
+    animation-name: cuadro;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+@keyframes cuadro{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.imagen{
+    height: 200px;
+    width: 280px;
+    background: pink;
+}
+.uno{
+    background-image: url(../img/small/small_pulp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dos{
+    background-image: url(../img/small/small_taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tres{
+    background-image: url(../img/small/small_bond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cuatro{
+    background-image: url(../img/small/small_ghost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cinco{
+    background-image: url(../img/small/small_bean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seis{
+    background-image: url(../img/small/small_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.siete{
+    background-image: url(../img/small/small_rider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ocho{
+    background-image: url(../img/small/small_team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nueve{
+    background-image: url(../img/small/small_break.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+#footer{
+    height: 220px;
+    width: 100%;
+    padding-top: 25px;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-image: url(../img/logo_carsandfilms.png);
+}
+
+@media screen and (max-width: 940px) {
+    #contenedor{
+        height: 2500px;
+        width: 320px;
+        margin: 0 auto;
+    }
+    
+    .cuadro{
+        height: 240px;
+        width: 280px;
+        margin: 20px;
+        background: white;
+        opacity: 50%;
+    }
+    
+}
