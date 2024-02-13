@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#juego{
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#dino{
+    height: 50px;
+    width: 20px;
+    background-color: cadetblue;
+    position: relative;
+    top: 150px;
+}
+
+.saltando{
+    animation: saltar 500ms infinite;
+}
+
+@keyframes saltar {
+    0%{top:150px;}
+    33%{top:100px;}
+    66%{top:100px;}
+    100%{top:150px;}
+}
+
+#obstaculo{
+    height: 20px;
+    width: 20px;
+    background-color: midnightblue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: obstaculo 1s infinite linear;
+}
+
+@keyframes obstaculo {
+    0%{left:480px;}
+    100%{left: -40px;}
+}
